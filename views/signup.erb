@@ -1,0 +1,16 @@
+h1>Sign-up</h1>
+
+<form method="POST" action="/sign_up_process" enctype="multipart/form-data">  
+<div class="form">
+<div class="label">
+<input type="email" name="email" required> <label for="email">e-mail</label>
+</div>
+
+</div>
+
+<div class="form">
+<div class="label">
+<input type="password" name="password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$"required> <label for="password">password</label> 
+</div>
+</div>
+<input type="submit"></form>

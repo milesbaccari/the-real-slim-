@@ -1,0 +1,14 @@
+<link rel="stylesheet" type="text/css" href="Styles/stylesheet.css">
+
+<article>
+	<form method="POST" action="/sign-in-process">
+		<input type="text" name="username">
+		<label for="username">Username</label>
+		<input type="password" name="password" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
+		<label for="password">Password</label>
+		<input type="submit">
+	</form>
+</article>
+
+
+
